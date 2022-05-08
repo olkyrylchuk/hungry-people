@@ -1,0 +1,364 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  font-family: "Open Sans";
+}
+
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 1280px;
+}
+
+.header {
+  background-image: url(../img/header-bg.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  margin-bottom: 100px;
+}
+.header .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header .nav .nav-side {
+  margin-top: 36px;
+  margin-left: 33px;
+  max-width: 450px;
+  width: 100%;
+}
+.header .nav .nav-side ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header .nav .logo {
+  margin-top: 20px;
+}
+.header .header__wrapp {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header .header__wrapp .header__work {
+  -ms-writing-mode: tb-rl;
+      writing-mode: tb-rl;
+  transform: rotate(180deg);
+  text-align: end;
+}
+.header .header__wrapp .title__wrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header .header__wrapp .title__wrapp h2 {
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  margin-bottom: 65px;
+}
+.header .header__wrapp .title__wrapp h1 {
+  font-family: "Dosis";
+  font-size: 96px;
+  line-height: 0px;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+.header .header__wrapp .title__wrapp span {
+  height: 5px;
+  width: 60px;
+  background: #E8C300;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+.header .header__wrapp .title__wrapp .header__button {
+  display: flex;
+  margin-bottom: 82px;
+}
+.header .header__wrapp .title__wrapp .header__button .header__button-book {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  margin-right: 40px;
+}
+.header .header__wrapp .title__wrapp .header__button .active {
+  background: #E8C300;
+  border: 1px solid #E8C300;
+}
+.header .header__wrapp .title__wrapp .header__button .header__button-explore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+.header .header__wrapp .header__social {
+  position: relative;
+  right: 20px;
+}
+.header .header__wrapp .header__social ul {
+  position: absolute;
+}
+.header .header__wrapp .header__social ul li {
+  margin-bottom: 20px;
+}
+
+.about {
+  margin-bottom: 100px;
+}
+.about .container .about__wrapp {
+  display: flex;
+}
+.about .container .about__wrapp .about__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000000;
+  justify-content: center;
+  max-width: 600px;
+}
+.about .container .about__wrapp .about__text .about__title {
+  font-family: "Dosis";
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.about .container .about__wrapp .about__text span {
+  height: 5px;
+  width: 60px;
+  background: #E8C300;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+.about .container .about__wrapp .about__text .about__title-first {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about .container .about__wrapp .about__text .about__title-second {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
+.about .container .about__img {
+  position: relative;
+}
+.about .container .about__img .square {
+  position: absolute;
+  left: 385px;
+  top: 160px;
+  width: 250px;
+  height: 250px;
+  border: 20px solid #E8C300;
+}
+
+.team {
+  margin-bottom: 100px;
+  padding-bottom: 100px;
+  background-image: url(../img/team-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.team .container {
+  padding-top: 50px;
+}
+.team .container h2 {
+  text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.team .container .team__wrapp {
+  margin-left: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+.team .container .team__wrapp .team__img {
+  position: relative;
+}
+.team .container .team__wrapp .team__img img {
+  border-radius: 5px;
+  margin-right: 40px;
+}
+.team .container .team__wrapp .team__img .square {
+  position: absolute;
+  left: -120px;
+  top: 124px;
+  width: 250px;
+  height: 250px;
+  border: 20px solid #E8C300;
+}
+.team .container .team__wrapp .team__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
+  max-width: 573px;
+}
+.team .container .team__wrapp .team__text .team__title {
+  font-family: "Dosis";
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.team .container .team__wrapp .team__text span {
+  height: 5px;
+  width: 60px;
+  background: #E8C300;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+.team .container .team__wrapp .team__text .team__title-first {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.team .container .team__wrapp .team__text .team__title-second {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.book .container .book__wrapp {
+  display: flex;
+  margin-left: 50px;
+}
+.book .container .book__wrapp .book__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000000;
+  justify-content: center;
+  max-width: 600px;
+}
+.book .container .book__wrapp .book__text .book__title {
+  font-family: "Dosis";
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.book .container .book__wrapp .book__text span {
+  height: 5px;
+  width: 60px;
+  background: #E8C300;
+  border-radius: 50px;
+  margin-bottom: 25px;
+}
+.book .container .book__wrapp .book__text .book__form {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 277px 277px;
+}
+.book .container .book__wrapp .book__text .book__form .box {
+  background: #E5E5E5;
+  display: grid;
+  min-width: 277px;
+  min-height: 60px;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-indent: 20px;
+  border: none;
+  color: rgba(51, 51, 51, 0.5);
+}
+.book .container .book__wrapp .book__text .book__form select {
+  background: #E5E5E5;
+  display: grid;
+  min-width: 277px;
+  min-height: 60px;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-indent: 20px;
+  border: none;
+  color: rgba(51, 51, 51, 0.5);
+}
+.book .container .book__wrapp .book__text .book__form .box-7 {
+  min-width: 564px;
+  display: flex;
+  justify-content: center;
+  background: #E8C300;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.book .container .book__wrapp .book__img {
+  position: relative;
+}
+.book .container .book__wrapp .book__img .square {
+  position: absolute;
+  left: 385px;
+  top: 160px;
+  width: 250px;
+  height: 250px;
+  border: 20px solid #E8C300;
+}
+.book .container .book__worktime {
+  font-size: 12px;
+  line-height: 12px;
+  display: flex;
+  justify-content: center;
+  color: rgba(51, 51, 51, 0.5);
+  margin-bottom: 50px;
+}
+.book .container .book__worktime span {
+  font-weight: 700;
+  color: #333333;
+}
+
+.specialties {
+  margin-bottom: 100px;
+  padding-bottom: 100px;
+  background-image: url(../img/team-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slider {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
